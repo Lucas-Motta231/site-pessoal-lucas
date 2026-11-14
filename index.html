@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site pessoal de estudante de Engenharia de Software da UTFPR, Campus Dois Vizinhos.">
+    <title>Lucas da Motta Poncio | Estudante de Engenharia de Software</title>
+</head>
+<body>
+    <header id="inicio">
+        <h1>Lucas Motta Poncio</h1>
+        <p>Estudante de Engenharia de Software | Técnico em Informática</p>
+        <img src="fotos/ftprincipal.jpg" alt="LucasMotta" width="15%" height="15%">
+
+        <p>
+            Apaixonado por tecnologia e desenvolvimento de sistemas.
+        </p>
+        <nav>
+            <h2>Navegação</h2>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação acadêmica</a></li>
+                <li><a href="#interesses">Interesses e objetivos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#links">Links</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <!-- ===================== SOBRE MIM ===================== -->
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+            <p>
+                Sou estudante de <strong>Engenharia de Software</strong> na UTFPR,
+                Campus Dois Vizinhos, e formado como <strong>Técnico em Informática</strong>
+                pelo IFPR, Campus Avançado Barracão.
+            </p>
+            <p>
+                Tenho experiência em diversas linguagens de programação, incluindo
+                C, Java e SQL, além de conhecimentos sólidos em hardware.
+            </p>
+            <p>
+                <strong>Localização:</strong> Dois Vizinhos, PR
+            </p>
+            <p><a href="#inicio">Voltar ao topo</a></p>
+        </section>
+
+        <hr>
+        <section id="formacao">
+            <h2>Formação acadêmica</h2>
+
+            <article>
+                <h3>Engenharia de Software</h3>
+                <p>
+                    Universidade Tecnológica Federal do Paraná (UTFPR) – Campus Dois Vizinhos<br>
+                    <em>Status: cursando</em>
+                </p>
+            </article>
+
+            <article>
+                <h3>Técnico em Informática</h3>
+                <p>
+                    Instituto Federal do Paraná (IFPR) – Campus Avançado Barracão<br>
+                    <em>Status: concluído</em>
+                </p>
+            </article>
+
+            <p><a href="#inicio">Voltar ao topo</a></p>
+        </section>
+
+        <hr>
+        <section id="interesses">
+            <h2>Interesses e objetivos</h2>
+            <p>Áreas em que quero aprimorar minhas habilidades e adquirir experiência:</p>
+            <ul>
+                <li>Desenvolvimento de software</li>
+                <li>Banco de dados</li>
+                <li>Engenharia de sistemas</li>
+                <li>Hardware e suporte técnico</li>
+            </ul>
+            <p>
+                Meu objetivo é construir uma carreira sólida na área de tecnologia,
+                contribuindo para projetos inovadores e soluções eficientes. Estou em
+                busca de estágios ou oportunidades que me permitam crescer
+                profissionalmente e aplicar meus conhecimentos para resolver desafios
+                reais no setor de tecnologia.
+            </p>
+            <p><a href="#inicio">Voltar ao topo</a></p>
+        </section>
+
+        <hr>
+        <section id="habilidades">
+            <h2>Habilidades e tecnologias</h2>
+
+            <h3>Linguagens</h3>
+            <ul>
+                <li>C</li>
+                <li>Java</li>
+                <li>SQL</li>
+            </ul>
+
+            <h3>Conhecimentos</h3>
+            <ul>
+                <li>Hardware e suporte técnico</li>
+                <li>Lógica de programação</li>
+                <li>Banco de dados</li>
+            </ul>
+            <p><a href="#inicio">Voltar ao topo</a></p>
+        </section>
+
+        <hr>
+        <section id="links">
+            <h2>Links e perfis</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/lucas-da-motta-poncio-983526359/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://www.utfpr.edu.br/campus/doisvizinhos" target="_blank" rel="noopener noreferrer">UTFPR – Campus Dois Vizinhos</a></li>
+            </ul>
+            <p><a href="#inicio">Voltar ao topo</a></p>
+        </section>
+
+        <hr>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>
+                Quer conversar sobre estágio ou projetos? Envie uma mensagem pelo
+                formulário ou escreva para
+                <a href="mailto:lucasponcio@alunos.utfpr.edu.br">lucasponcio@alunos.utfpr.edu.br</a>.
+            </p>
+
+            <!-- Nesta etapa o formulário não envia dados para um servidor -->
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Envie uma mensagem</legend>
+
+                    <p>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="assunto">Assunto:</label><br>
+                        <select id="assunto" name="assunto">
+                            <option value="estagio">Oportunidade de estágio</option>
+                            <option value="projeto">Projeto</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" rows="6" cols="40" required></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </p>
+                </fieldset>
+            </form>
+            <p><a href="#inicio">Voltar ao topo</a></p>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- ===================== RODAPÉ ===================== -->
+    <footer>
+        <p>&copy; 2026 Lucas Motta Poncio – Dois Vizinhos, PR</p>
+    </footer>
+
+</body>
+</html>
