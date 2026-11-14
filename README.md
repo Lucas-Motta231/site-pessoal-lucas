@@ -1,6 +1,6 @@
 Site Pessoal – Versão 1 (HTML)
 
-Aluno: Seu Nome
+Aluno: Lucas Motta Poncio
 Curso: Engenharia de Software – UTFPR, Campus Dois Vizinhos
 
 Objetivo da atividade
@@ -11,6 +11,4 @@ estrutura básica (<!DOCTYPE html>, <html>, <head> e <body>);
 títulos, parágrafos, listas, hyperlinks e imagem;
 navegação entre as seções da página;
 formulário de contato com <form> (sem envio a servidor).
-Como visualizar
 
-Coloque index.html e foto.jpg na mesma pasta e abra o index.html no navegador.
